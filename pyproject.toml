@@ -27,6 +27,11 @@ dependencies = [
   "tqdm",
   "packaging",
   "tensorboard",
+  "torch>=1.9",
+  "jax>=0.4.3",
+  "jaxlib>=0.4.3",
+  "flax",
+  "optax",
 ]
 [project.optional-dependencies]
 torch = [
